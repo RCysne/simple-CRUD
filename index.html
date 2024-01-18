@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+</head>
+<body>
+    <h1>ToDo List - CRUD</h1>
+    <form action="">
+        <div>
+            <label for="brand">Marca</label>
+            <input type="text" id="brand" placeholder="Digite a marca do celular">
+        </div>
+        <div>
+            <label for="model">Modelo</label>
+            <input type="text" id="model" placeholder="Digite o modelo do celular">
+        </div>
+        <div>
+            <label for="price">Preço</label>
+            <input type="text" id="price" placeholder="Digite o preço do celular">
+        </div>
+        <button type="submit" id="btnSubmit">Add Item</button>
+        <hr>
+    </form>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody id="result">
+                <!-- <tr>
+                    <td>Xiaomi</td>
+                    <td>12 Max</td>
+                    <td>R$ 4.800,00</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
